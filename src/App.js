@@ -22,7 +22,7 @@ function App() {
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Toplam Test Sayısı</th>
+              <th scope="col">Günlük Test Sayısı</th>
               <th scope="col">Hasta Sayısı</th>
               <th scope="col">Vefat Sayısı</th>
             </tr>
