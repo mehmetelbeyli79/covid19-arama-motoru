@@ -16,13 +16,13 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto mt-4">
-          <h2 className="display-3 text-center text-white">TÜRKİYE COVİD-19 Arama Motoru</h2>
+          <h2 className="display-3 text-center text-white">TÜRKİYE COVID-19 Arama Motoru</h2>
           <input type="text" className="form-control" placeholder="GG/AA/YY" onChange={(e)=>setTarih(e.target.value)} />
           <table className="table table-striped text-white">
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Günlük Test Sayısı</th>
+              <th scope="col">Test Sayısı</th>
               <th scope="col">Hasta Sayısı</th>
               <th scope="col">Vefat Sayısı</th>
             </tr>
